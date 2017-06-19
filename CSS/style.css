@@ -2,12 +2,36 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+@keyframes color-change {
+    0%,
+    100% {
+        background-color: #9b785d;
+    }
+    25% {
+        background-color: #bb9e85;
+    }
+    50% {
+        background-color: #f9dbb5;
+    }
+    75% {
+        background-color: #85d7bc;
+    }
+}
+
 header {
     text-align: center;
     width: 100%;
     padding: 10px;
     color: white;
     background-color: #afafaf;
+    animation-name: color-change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    height: 10em;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 header h1 {
