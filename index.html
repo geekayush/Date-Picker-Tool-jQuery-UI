@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link type="text/css" rel="stylesheet" href="CSS/style.css" />
+    <link rel='stylesheet' type='text/css' href="CSS/jquery-ui.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script type="text/javascript" src="JS/jquery.min.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <title>
+        Date-Picker Tool
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-xs-12">
+                <h1>Date-Picker Tool</h1>
+            </header>
+        </div>
+        <div class="header">
+            <div class="row">
+                <h2 class="select col-xs-8 col-xs-offset-2">Select a Destination</h2>
+            </div>
+        </div>
+        <section class="date">
+            <div class="row">
+                <div class="left col-xs-4 col-xs-offset-1">
+                    <h4>Departing: <input type="text" id="departing"></h4>
+                </div>
+                <div class="right col-xs-4 col-xs-offset-2">
+                    <h4>Returning: <input type="text" id="returning"></h4>
+                </div>
+            </div>
+        </section>
+        <div class="row">
+            <section class="main col-xs-4 col-xs-offset-4">
+                <h4>Destination: <select id="dropdown">
+            <option value="newyork">New York</option>
+            <option value="london">London</option>
+            <option value="beijing">Beijing</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="moscow">Moscow</option>
+        </select></h4>
+            </section>
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-primary col-xs-4 col-xs-offset-4">
+        Submit
+    </button>
+        </div>
+    </div>
+</body>
+
+</html>
